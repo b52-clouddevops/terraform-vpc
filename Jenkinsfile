@@ -10,7 +10,7 @@ pipeline {
 
         stage('Terraform Plan') {
             steps {
-                sh "terraform plan -var-file="
+                sh "terraform plan -var-file=env-dev/dev.tfvars"
             }
         }
     }
