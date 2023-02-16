@@ -11,7 +11,7 @@
 
 
 module "vpc" {
-  source = ""
+  source = "./vendor/modules/vpc"
 }
 
 VPC_CIDR
