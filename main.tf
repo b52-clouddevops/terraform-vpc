@@ -10,8 +10,8 @@
 
 
 
-# module "vpc" {
-#   source = "git::https://github.com/b52-clouddevops/tf-module-vpc.git"
-# }
+module "vpc" {
+  source = ""
+}
 
 VPC_CIDR
