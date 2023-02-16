@@ -3,8 +3,9 @@ pipeline {
 
         parameters {
              choice(name: 'ENV', choices: ['dev', 'prod'], description: 'Chose an environment')
+             choice(name: 'ENV', choices: ['dev', 'prod'], description: 'Chose an environment')
         }
-        
+
     stages {
         stage('Terraform Init') {
             steps {
