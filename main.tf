@@ -11,7 +11,7 @@
 
 
 module "vpc" {
-  source = "./vendor/modules/vpc"
+  source = "./vendor/modules/vpc"     # Terrafile is going to download the code 
 }
 
 VPC_CIDR
