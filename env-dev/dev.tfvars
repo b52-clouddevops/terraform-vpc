@@ -1,1 +1,1 @@
-VPC_CIDR=
+VPC_CIDR = "" 
