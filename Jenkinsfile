@@ -8,6 +8,10 @@ pipeline {
             }
         }
 
-        stage('')
+        stage('Terraform Plan') {
+            steps {
+                
+            }
+        }
     }
 }
