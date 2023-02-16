@@ -1,3 +1,3 @@
 module "vpc" {
-  source = "git::"
+  source = "git::https://github.com/b52-clouddevops/tf-module-vpc.git"
 }
