@@ -13,7 +13,8 @@ pipeline {
                 sh "terraform plan -var-file=env-${ENV}/${ENV}.tfvars"
             }
         }
-        stage('Terraform Plan') {
+
+        stage('Terraform Action') {
             steps {
                 sh "terraform plan -var-file=env-${ENV}/${ENV}.tfvars"
             }
