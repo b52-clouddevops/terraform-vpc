@@ -27,4 +27,4 @@ output "DEFAULT_VPC_CIDR" {
 }
 
 output "DEFAULT_VPC_ID" {
-    value = module.vpc.
+    value = module.vpc.DEFAULT_VPC_ID
