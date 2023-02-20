@@ -1,5 +1,5 @@
 output "VPC_ID" {
-    value = module.vpc.CIDR
+    value = module.vpc.VPC_ID
 }
 
 output "VPC_CIDR" {
