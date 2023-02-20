@@ -1,5 +1,5 @@
 output "VPC_ID" {
-    value = aws_vpc.main.id 
+    value = module.vpc.CIDR
 }
 
 output "VPC_CIDR" {
