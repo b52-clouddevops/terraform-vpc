@@ -15,11 +15,11 @@ output "PUBLIC_SUBNET_IDS" {
 }
 
 output "PRIVATE_SUBNET_CIDR" {
-    value = aws_subnet.private-subnet.*.cidr_block
+    value = module.vpc.PRIVATE_SUBNET_CIDR
 }
 
 output "PUBLIC_SUBNET_CIDR" {
-    value = aws_subnet.public-subnet.*.cidr_block
+    value = module.vpc.
 }
 
 output "DEFAULT_VPC_CIDR" {
