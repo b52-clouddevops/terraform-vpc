@@ -30,7 +30,6 @@ output "DEFAULT_VPC_ID" {
     value = module.vpc.DEFAULT_VPC_ID
 }
 
-###
 output "PRIVATE_HOSTEDZONE_ID" {
     value =  module.vpc.PRIVATE_HOSTEDZONE_ID
 }
@@ -44,5 +43,5 @@ output "PRIVATE_HOSTEDZONE_NAME" {
 }
 
 output "PUBLIC_HOSTEDZONE_NAME" {
-    value = var.PUBLIC_HOSTEDZONE_NAME
+    value = module.vpc.PUBLIC_HOSTEDZONE_NAME
 }
