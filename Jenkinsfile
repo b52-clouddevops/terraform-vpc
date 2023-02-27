@@ -1,6 +1,6 @@
 @Library('robot-shared-library@main') _
 
-env.REPONAME=
+env.REPONAME="terraform-vpc"
 terraform()
 // pipeline {
 //     agent any 
